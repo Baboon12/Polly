@@ -1,0 +1,46 @@
+body{
+    background-color: #313131;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+#chart_container{
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+}
+
+section{
+    margin: 20px 50px;
+    width: 50%;
+}
+
+.heading main{
+    font-size: 40px;
+    margin-bottom: -13px;
+}
+
+.heading p{
+    font-size: 14px;
+}
+
+.content p{
+    padding: 5px;
+    font-size: 18px;
+}
+
+#submit{
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(37, 221, 228);
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+}
+
+#submit:active{
+    transform: scale(0.95)
+}

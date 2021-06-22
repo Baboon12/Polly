@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polly</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="heading">
+            <main>OS Vote</main>
+            <p>Vote for your favorite OS</p>
+        </section>
+        <section class="content">
+            <form id="vote_form">
+                <p>
+                    <input type="radio" name="os" id="windows" value="Windows">
+                    <label for="windows">Windows</label>
+                </p>
+                <p>
+                    <input type="radio" name="os" id="macos" value="MacOS">
+                    <label for="macos">MacOS</label>
+                </p>
+                <p>
+                    <input type="radio" name="os" id="linux" value="Linux">
+                    <label for="linux">Linux Distro</label>
+                </p>
+                <p>
+                     <input type="radio" name="os" id="other" value="Other">
+                    <label for="other">Something Else</label>
+                </p>
+                <input type="submit" value="Vote" id="submit">
+            </form>
+        </section>
+        <div id="chart_container"> </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/7.0.3/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
