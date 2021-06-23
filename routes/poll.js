@@ -5,10 +5,11 @@ const Pusher = require('pusher');
 const mongoose = require('mongoose');
 const Vote = require('../models/Vote');
 
+// use your own appId, key, secret, cluster and useTLS by signing up for Pusher API, its free
 const pusher = new Pusher({
     appId: "1221496",
     key: "335ac32498d85fd8cc1b",
-    secret: "1c5335b149f73f67cd8b",
+    secret: "1c5335b149f73f67cd8b", 
     cluster: "ap2",
     useTLS: true
 });
